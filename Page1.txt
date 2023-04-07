@@ -1,0 +1,38 @@
+Chapter 1 Introducing Bedework 3.6
+1.1
+Bedework System Overview
+Bedework is an open-source enterprise calendar system that supports public, personal, and
+group calendaring. It is designed to conform to current calendaring standards with a goal of
+attaining strong interoperability between other calendaring systems and clients. Bedework is
+built with an emphasis on higher education, though it is used by many commercial
+enterprises.
+You may choose to deploy Bedework for public events calendaring, personal calendaring and
+scheduling, or both. Bedework is suitable for embedding in other applications or in portals
+and has been deployed across a wide range of environments.
+Bedework System Architecture
+Bedework 3.6 has a central server architecture and is modular and extensible. It consists of
+the following components:
+• Bedework core calendar engine
+• Public events web client, called a “Calendar Suite”, for display of public events
+•
+•
+•
+•
+•
+Public events administration web client for entering public events, moderating
+pending events from the submissions client, and configuring calendar suites
+Public events submission web client for authenticated members of your community
+to suggest public events – these become pending events in the admin client
+Personal and group calendaring web client with a subscription model to Bedework
+public calendars, user calendars, and external calendar feeds
+CalDAV server for integration with CalDAV capable desktop (and web) clients such
+as Apple's iCal or Mozilla Lightning
+CardDAV server supporting contacts for scheduling in the personal client. This server
+will become more heavily used in future versions of Bedework for contacts, locations,
+and other resources.
+• TimeZone server for support of timezone information
+• Dump/Restore command-line utilities for database backup, initialization, and
+Mar 31, 2010
+Go to table of contents
+p.8
+

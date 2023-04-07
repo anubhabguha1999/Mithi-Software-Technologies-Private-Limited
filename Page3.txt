@@ -1,0 +1,47 @@
+Apple's iCal, Evolution, and others.
+•
+Web clients : The Bedework web clients provide access to public events in guest mode
+and to public and personal events in authenticated mode. All web clients are easily
+skinned allowing a high degree of customization.
+•
+•
+•
+•
+•
+•
+•
+Public calendar suites : Public events are displayed using "calendar suites"
+allowing multiple organizations to maintain their own public views of events
+with whatever degree of visibility is appropriate. A Bedework public
+calendaring installation may have one or many calendar suites. A calendar
+suite provides a customized view of events, custom theming, and control over
+how events are tagged by event administrators.
+Personal calendars : Bedework provides a web client for personal and group
+calendaring including scheduling. Using CalDAV desktop clients, users can see
+a fully synchronized view of their personal and subscribed events between their
+desktop client and the web client.
+Administrative client for public events : Public event entry and maintenance is
+carried out through the administrative web client. The system supports three
+roles: Super Users control global system settings including user and calendar
+maintenance and the setup of calendar suites. Calendar Suite Owners can
+modify the settings of their calendar suite, and Event Administrators can add
+and edit events for the administrative groups to which they belong.
+Public event submission : Bedework provides a web client for submitting
+events to a public queue allowing members of your community who are not
+event administrators to suggest public events.
+Highly customizable look and feel - XML & XSLT : The web clients are XML
+and XSLT based allowing Bedework to be "skinned" for multiple clients and
+uses. For example, the quickstart comes with skins for producing production
+RSS, Javascript, and video feeds as well as HTML displays suitable for handheld
+devices.
+Database independence - Hibernate : The core of the calendar uses Hibernate for all
+database transactions giving support of many database systems and enterprise level
+performance and reliability. A number of caching schemes are implemented for
+Hibernate including clustered systems giving further options for improving
+availability.
+Sharing : Full CalDAV access control is available allowing the sharing of calendars
+and calendar entities based on authentication status and identity.
+Mar 31, 2010
+Go to table of contents
+p.10
+

@@ -1,0 +1,31 @@
+The Bedework system is divided into two main spaces: the public events space, and the
+personal and group calendaring space which are kept separate by design. Public events are
+stored below a public calendar root folder and personal calendars are below a user calendar
+root folder.
+PUBLIC PERSONAL & GROUP
+EVENTS EVENTS
+calendars & events are calendars & events are
+publicly viewable unless private unless shared
+hidden or access is changed 
+root is /public root is /user
+Personal calendar users (and other clients) can subscribe to public events, but users may only
+add public events using the Administrative and Community Submissions web clients. For
+more information about Bedework's public and personal event calendaring models, see
+chapters 4 and 5.
+Features of Bedework
+•
+•
+Java : Written completely in Java, Bedework is system independent. Currently it will
+compile and run in Java 1.5 or later.
+Standards based and interoperable : Interoperability with other calendar systems and
+clients by way of standards compliance is a fundamental design goal of the Bedework
+system. The following standards are supported:
+iCalendar support (rfc2445)
+iTIP (rfc2446)
+CalDAV (rfc4791)
+CalDAV scheduling (draft)
+VVenue (draft)
+•
+CalDAV server : a full CalDAV server is a core feature of Bedework. It can be used
+with any CalDAV capable client and has been shown to work with Mozilla Lightning,
+
